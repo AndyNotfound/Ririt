@@ -1,0 +1,7 @@
+/* .nav-link {
+    margin: 12px;
+} */
+
+.nav-link:hover {
+    background-color: #F3F4F8;
+}
