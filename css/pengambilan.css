@@ -1,0 +1,130 @@
+h1.page-header {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 91.667% */
+}
+
+h2.headline {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 91.667% */
+}
+
+div.delivery {
+  margin: 41px 0 24px 0;
+  display: flex;
+  gap: 24px;
+}
+
+div.delivery-card {
+  width: 320px;
+  height: 199px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 30px 32px;
+}
+
+div.order {
+  width: 1063px;
+  min-height: 346px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 43px 36px 57px;
+}
+
+p.order-code {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Semi Bold */
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+}
+
+p.order-status {
+  width: fit-content;
+  padding: 10px;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Small Semi Bold */
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 107.692% */
+  border-radius: 4px;
+}
+
+p.order-status.ready {
+  background: rgba(189, 0, 255, 0.16);
+  color: #bd00ff;
+}
+
+div.order-detail {
+  display: flex;
+  gap: 203px;
+}
+
+div.order-product {
+  display: flex;
+  gap: 25px;
+}
+
+img.product-image {
+  width: 130px;
+  height: 180px;
+}
+
+.product-detail > p,
+.order-pricing > p {
+  color: #8b909a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 186.667% */
+}
+
+h3.product-title {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Semi Bold */
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+  margin-bottom: 12px;
+}
+
+button.primary-button {
+  margin-top: 30px;
+  outline: unset;
+  border: unset;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.43px;
+  border-radius: 8px;
+  background: #0f60ff;
+  padding: 13px 26px;
+  /* Light/Gray/Gray - SM */
+  box-shadow: 0px 2px 4px 0px rgba(165, 163, 174, 0.3);
+  color: var(--light-solid-color-extra-white, #fff);
+}
