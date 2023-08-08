@@ -1,0 +1,177 @@
+h1.page-header {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 91.667% */
+}
+
+div.order {
+  width: 100%;
+  min-height: 346px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 43px 36px 57px;
+}
+
+p.order-code {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Semi Bold */
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+}
+
+p.order-status {
+  width: fit-content;
+  padding: 10px;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Small Semi Bold */
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 107.692% */
+  border-radius: 4px;
+}
+
+p.order-status.canceled {
+  background: rgba(234, 84, 85, 0.16);
+  color: #ea5455;
+}
+
+div.order-detail {
+  display: flex;
+  gap: 203px;
+}
+
+div.order-product {
+  display: flex;
+  gap: 25px;
+}
+
+img.product-image {
+  width: 130px;
+  height: 180px;
+}
+
+.product-detail > p,
+.order-timeline > ul > li {
+  color: #8b909a;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 186.667% */
+}
+
+li.event {
+  position: relative;
+  list-style: none;
+  border-left: 1px solid #8b909a;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+li.event:last-of-type {
+  border-left: none;
+}
+
+li.event::before {
+  position: absolute;
+  left: -1.2%;
+  width: 5px;
+  height: 5px;
+  content: " ";
+  border: 5px solid #8b909a;
+  border-radius: 500%;
+}
+
+.timestamp {
+  position: absolute;
+  left: -35%;
+}
+
+h3.product-title {
+  color: #8b909a;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Semi Bold */
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+  margin-bottom: 12px;
+}
+
+div.bukti > h3 {
+  color: #23272e;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Light/Basic Typography/Paragraph Semi Bold */
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 146.667% */
+}
+
+div.bukti-box {
+  margin-top: 13px;
+  width: 100%;
+  min-height: 321px;
+  background: #d9d9d9;
+  border-radius: 8px;
+}
+
+div.button-group {
+  margin-top: 45px;
+  display: flex;
+  gap: 20px;
+}
+
+button.primary-button {
+  outline: unset;
+  border: unset;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.43px;
+  border-radius: 8px;
+  background: #0f60ff;
+  padding: 13px 26px;
+  /* Light/Gray/Gray - SM */
+  box-shadow: 0px 2px 4px 0px rgba(165, 163, 174, 0.3);
+  color: var(--light-solid-color-extra-white, #fff);
+}
+
+button.secondary-button {
+  outline: unset;
+  border: unset;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Public Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.43px;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  background: unset;
+  padding: 13px 26px;
+  /* Light/Gray/Gray - SM */
+  box-shadow: 0px 2px 4px 0px rgba(165, 163, 174, 0.3);
+  color: #000;
+}
