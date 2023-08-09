@@ -24,6 +24,15 @@ div.delivery {
   gap: 24px;
 }
 
+div.delivery > label > input {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  visibility: hidden;
+}
+
 div.delivery-card {
   width: 320px;
   height: 199px;

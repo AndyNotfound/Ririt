@@ -275,45 +275,64 @@
             <!-- Page Heading -->
             <h2 class="headline">Pilih untuk pengajuan pengambilan barang</h2>
 
-            <div class="delivery">
-              <div class="delivery-card">
-                <img class="card-image" src="img/deliver-home.svg" alt="" />
-                <p class="card-title">Antar ke alamatmu</p>
-                <p class="card-price">Rp 20.000</p>
+            <form action="" method="post">
+              <div class="delivery">
+                <label>
+                  <input type="button" value="delivery" />
+                  <div class="delivery-card">
+                    <img class="card-image" src="img/deliver-home.svg" alt="" />
+                    <p class="card-title">Antar ke alamatmu</p>
+                    <p class="card-price">Rp 20.000</p>
+                  </div>
+                </label>
+
+                <label>
+                  <input type="button" value="pickup" />
+                  <div class="delivery-card">
+                    <img
+                      class="card-image"
+                      src="img/deliver-pickup.svg"
+                      alt=""
+                    />
+                    <p class="card-title">Ambil Ditempat</p>
+                    <p class="card-price">Rp 4.000</p>
+                  </div>
+                </label>
               </div>
 
-              <div class="delivery-card">
-                <img class="card-image" src="img/deliver-pickup.svg" alt="" />
-                <p class="card-title">Ambil Ditempat</p>
-                <p class="card-price">Rp 4.000</p>
-              </div>
-            </div>
-
-            <div class="order">
-              <p class="order-code">#KRM001</p>
-              <p class="order-status ready">Ready</p>
-              <div class="order-detail">
-                <div class="order-product">
-                  <img src="img/book-cover.png" alt="" class="product-image" />
-                  <div class="product-detail">
-                    <h3 class="product-title">BOOK COVER "I LOVE YOU SO MUCH"</h3>
-                    <p>kurir : Gohand</p>
-                    <p>Penerima: Ilham</p>
-                    <p>Total pesanan Rp 36.000</p>
+              <div class="order">
+                <p class="order-code">#KRM001</p>
+                <p class="order-status ready">Ready</p>
+                <div class="order-detail">
+                  <div class="order-product">
+                    <img
+                      src="img/book-cover.png"
+                      alt=""
+                      class="product-image"
+                    />
+                    <div class="product-detail">
+                      <h3 class="product-title">
+                        BOOK COVER "I LOVE YOU SO MUCH"
+                      </h3>
+                      <p>kurir : Gohand</p>
+                      <p>Penerima: Ilham</p>
+                      <p>Total pesanan Rp 36.000</p>
+                    </div>
+                  </div>
+                  <div class="order-pricing">
+                    <p>Subtotal produk: Rp 35.000</p>
+                    <p>Subtotal pengiriman: Rp 35.000</p>
+                    <p>Subtotal diskon pengiriman: -Rp 35.000</p>
+                    <p>Biaya layanan: Rp 1.000</p>
+                    <p>Total pesanan: Rp 36.000</p>
                   </div>
                 </div>
-                <div class="order-pricing">
-                  <p>Subtotal produk: Rp 35.000</p>
-                  <p>Subtotal pengiriman: Rp 35.000</p>
-                  <p>Subtotal diskon pengiriman: -Rp 35.000</p>
-                  <p>Biaya layanan: Rp 1.000</p>
-                  <p>Total pesanan: Rp 36.000</p>
-                </div>
               </div>
-            </div>
 
-            <button type="submit" class="primary-button">Konfirmasi Pengambilan</button>
-
+              <button type="submit" class="primary-button">
+                Konfirmasi Pengambilan
+              </button>
+            </form>
           </div>
           <!-- /.container-fluid -->
         </div>
